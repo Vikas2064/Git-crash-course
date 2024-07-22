@@ -6,3 +6,4 @@ function sayName(str) {
     console.log(`my name is ${str}`)
 }
 
+
