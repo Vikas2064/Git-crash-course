@@ -1,0 +1,36 @@
+Version control system : it is also known as source control. it is used for tacking and manageing the software code changes.
+famous VCS :-->
+1. Git
+2. Apache Subversion
+3. Piper (Used by google)
+
+learn type of Version control system 
+
+how to set the global user name and user email :--> 
+   git config --global user.email 'user_email'
+   git config --global user.name 'user_name'
+
+To track any repo we have to initialize that repo as git repo:-->
+   to do that we have to run the following command in that repo 
+   1. git init 
+when we run git init command a hidden folder(.git) is created inside the folder which is initialized as git repo
+which store the information how this repo is tracked and this folder must never be touched
+if any particular file is not tacked then to start tracking it we should run the following command to
+   1. git add file_Name
+
+when we start adding new line of code in a file in vs code then it start with blue(or some other color) which shows
+something is added in the file 
+
+if we want to know what are the changes that are done the file from the privious code then we have to run the following command:-->
+   1. git diff 
+
+if we want to add all the new file and new folder then we have to run the follwing command :-->
+   1. git add . 
+if we want to remove the any file then we can run following command :-->
+  1. git rm file_path
+
+Commiting in git :----> to track the file or folder over time 
+   we we make some changes to the files and if we think that we have done changing then we commit all the chages with messages(not necessary)
+
+
+
