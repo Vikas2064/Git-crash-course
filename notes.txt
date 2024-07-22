@@ -30,7 +30,30 @@ if we want to remove the any file then we can run following command :-->
   1. git rm file_path
 
 Commiting in git :----> to track the file or folder over time 
-   we we make some changes to the files and if we think that we have done changing then we commit all the chages with messages(not necessary)
+   1. We we make some changes to the files and if we think that we have done changing then we commit all the chages with messages(not necessary)
+   2. Every commit has an id and message
 
+if we want to see all the commit history then we have to run following commands:
+   1. git log (it give the information about all the commit)
 
+if we want to see all the code changes in a particular commit then we can use the following command:--> 
+   1. git show commit_id  
 
+if we want to know which author makes what changes in a file then we have to use run following command :-->
+   1. git blame file_name
+
+ 
+Staging Area :--> it is the area that contain the files which will be commited 
+   1. we can put a file in the staging area using git add command.
+   2. git status :-->it tell us which file has been modified 
+
+Revert back :--> if we think that there is a bug in a file after changing something then we can to back to privious version 
+  1. commits are in the form of linked list and after each commit a node(for understanding) is inserted at the head(HEAD) of the linked list 
+  2. so head always points to the latest commit
+how to revert back:--> 
+   1. first way we can make head point to privious commit (hard way)  for that run the following command git reset --hard commit_id
+      in the above way we also loose some useful commit information because all the linear commit will be revert back or they will be removed from history
+   2. we can avoid the above way by using the following command:-->
+      git revert commit_id 
+      the above command will revert the current code to the privious commit(corresponding to commit_id) 
+      
