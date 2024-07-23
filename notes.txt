@@ -1,3 +1,7 @@
+https://app.eraser.io/workspace/P96VaUsW5o0FXVOTDzHY
+
+
+
 Version control system : it is also known as source control. it is used for tacking and manageing the software code changes.
 famous VCS :-->
 1. Git
@@ -56,4 +60,16 @@ how to revert back:-->
    2. we can avoid the above way by using the following command:-->
       git revert commit_id 
       the above command will revert the current code to the privious commit(corresponding to commit_id) 
-      
+
+
+Collberation :--> If there is a real time project then there are multiple programmer works on that if we want that each changes is visible to everyone and 
+consistency is also maintained in the project then we can use some remote serverd (gitHub, GitLab, Bitbucket etc ).
+   1.consistency is maintained by continuously pushing and pulling the code on the remote server.
+
+
+if we want to sync our local machine code with the any remote location then we have to use remote command 
+  1. we can set  a remote and can give it a user friendly name (and by default it is known as origin) 
+      git remote add origin remote_address (Linking the local machine code with remote address)
+      git push -u origin main (pushing the code )
+
+using your remote address anyone can clone your repository and make changes(gitHub avoid pushing the code by anyone using authentication )
