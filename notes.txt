@@ -74,3 +74,10 @@ if we want to sync our local machine code with the any remote location then we h
 
 using your remote address anyone can clone your repository and make changes(gitHub avoid pushing the code by anyone using authentication (SSH authentication))
 SSH(secure socket shell) authentication:--> 
+
+  
+Branching in git :--> initially we work on single branch(main (new version), master(in old version))and commit on single branch but if there are multiple developer on working on the same project it will pollute the commit, revert and tracking will also be difficult to 
+solve this we use branching. 
+different developer works on different branch and when ddeveloper are done with their part each of them create a single commit by combining their commits seperatly and then it is merge with main branch.
+how to create branch  (git branch branch_name)
+to switch to another branch (git checkout branch_name)

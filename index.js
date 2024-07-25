@@ -7,3 +7,6 @@ function sayName(str) {
 }
 
 
+function newFeatureadded(){
+    console.log("new feature added")
+}
