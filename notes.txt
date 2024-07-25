@@ -81,3 +81,5 @@ solve this we use branching.
 different developer works on different branch and when ddeveloper are done with their part each of them create a single commit by combining their commits seperatly and then it is merge with main branch.
 how to create branch  (git branch branch_name)
 to switch to another branch (git checkout branch_name)
+to push the new branch to github and code use(git push --set origin piyush-feat)
+how to merge branch git merge origin/piyush-feat
