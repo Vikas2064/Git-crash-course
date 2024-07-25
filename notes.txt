@@ -72,4 +72,5 @@ if we want to sync our local machine code with the any remote location then we h
       git remote add origin remote_address (Linking the local machine code with remote address)
       git push -u origin main (pushing the code )
 
-using your remote address anyone can clone your repository and make changes(gitHub avoid pushing the code by anyone using authentication )
+using your remote address anyone can clone your repository and make changes(gitHub avoid pushing the code by anyone using authentication (SSH authentication))
+SSH(secure socket shell) authentication:--> 
