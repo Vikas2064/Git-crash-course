@@ -10,3 +10,7 @@ function sayName(str) {
 function newFeatureadded(){
     console.log("new feature added")
 }
+
+function create_new(){
+    console.log("new function is created with lsdjfsdf")
+}
